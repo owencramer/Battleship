@@ -1,4 +1,6 @@
-/**/
+/* Battleship
+ *
+ */
 
 public class Main {
 
