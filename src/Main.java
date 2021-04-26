@@ -4,6 +4,15 @@
  * Battleship - Destroy other ships to win!
  */
 
-public class Main {
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) {
+        Game_Generate gen = new Game_Generate();
+
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Welcome to " + ANSI_Colors.RED_BOLD + ANSI_Colors.RED_UNDERLINED + "Battleship"
+                + ANSI_Colors.RESET + "!");
+    }
 }
