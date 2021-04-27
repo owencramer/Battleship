@@ -8,7 +8,7 @@
 
 import java.util.*;
 
-public class Main {
+public class Main { //creates class
     public static void main(String[] args) {
         Game_Generate gen = new Game_Generate();
 
