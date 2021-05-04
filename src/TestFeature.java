@@ -1,7 +1,5 @@
 import java.util.Random;
 public class TestFeature {
-
-}
     public static void initializecomputer() {//generate random positions for computer
         Random rand = new Random();
         for (int i=0; i<10; i++) {
@@ -16,3 +14,5 @@ public class TestFeature {
                     row = rand.nextInt(8);
                     coordinate = column + "" + row;
                     i++;
+
+}
