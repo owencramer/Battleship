@@ -36,5 +36,17 @@ public class Player {
     public void playerPlay(Player opponent) {
         System.out.printf("%n%nPlayer %d, Choose coordinates you want to hit (x, y) ", id);
         Point point = new Point(scanner.nextInt(), scanner.nextInt());
+
+        while(targetHistory.get(point) != null) {
+            System.out.print("This position has already been tried");
+            point = new Point(scanner.nextInt(), scanner.nextInt());
+
+        }
+        attack(point, opponent);
+    }
+
+    private void attack(Point point, Player opponment) {
+        Ship ship opponment.board.targetShip(point);
+        boolean isS
     }
 }
