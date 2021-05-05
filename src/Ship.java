@@ -10,5 +10,4 @@ public class Ship {
     private boolean isSunk;
     private Position position;
 
-
 }
