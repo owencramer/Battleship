@@ -9,7 +9,7 @@ import java.util.*;
 public class Player {
     private int id;
     private int lives;
-    Game_Generate board = new Game_Generate();
+    private Board board;
     private Map<Point, Boolean> targetHistory;
     private Scanner scanner;
 
@@ -46,7 +46,10 @@ public class Player {
     }
 
     private void attack(Point point, Player opponment) {
-        Ship ship opponment.board.targetShip(point);
-        boolean isS
+        Ship ship = opponment.board.targetShip(point);
+        boolean isShipHit = (ship != null) ? true : false;
+        if (isShipHit) {
+            ship.shipWasHit
+        }
     }
 }
