@@ -54,8 +54,14 @@ public class Player {
     private void attack(Point point, Player opponment) {
         Ship ship = opponment.board.targetShip(point);
         boolean isShipHit = (ship != null) ? true : false;
+
         if (isShipHit) {
-            ship.shipWasHit
+            ship.shipWasHit();
+            opponment.decrementLiveByOne();
+            targetHistory.put(point, isShipHit);
+            System.out.printf("Player %d, targets (%d, %d)",
+                    id, (int)point.getX(), (int)point.getY());
+            System.out.println("...and " + ((isShipHit) ? "HITS!" : "misses..."));
         }
     }
 }
