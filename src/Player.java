@@ -3,7 +3,14 @@
  * Randomizes battleships on game board
  */
 
-import battleship.
+import battleship.board.Board;
+import battleship.constants.Constants;
+import battleship.ship.Ship;
+
+import java.awt.Point;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 
 public class Player {
     private int id;
