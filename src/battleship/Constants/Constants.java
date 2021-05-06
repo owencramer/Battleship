@@ -1,3 +1,5 @@
+package battleship.Constants;
+
 public class Constants {
     private Constants() {}
 
