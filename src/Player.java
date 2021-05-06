@@ -3,8 +3,7 @@
  * Randomizes battleships on game board
  */
 
-import java.awt.*;
-import java.util.*;
+import battleship.
 
 public class Player {
     private int id;

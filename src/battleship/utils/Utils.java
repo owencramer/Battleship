@@ -13,10 +13,16 @@ public class Utils {
         double endPointX = to.getX();
         double endPointY = to.getY();
 
-        return Math.sqrt(Math.pow(x1-x2, 2) + Math.pow(y1-y2, 2)) + 1;
+        return Math.sqrt(Math.pow(startPointX-endPointX, 2) + Math.pow(startPointY-endPointY, 2)) + 1;
     }
 
     public static boolean isPointBetween(Point point, Position position) {
-        Point from =
+        Point from = position.getFrom();
+        Point to = position.getTo();
+
+        return from.getY() <= point.getY()
+                && to.getY() >= point.getY()
+                && from.getX() <= point.getX()
+                && to.getX() >= point.getX();
     }
 }

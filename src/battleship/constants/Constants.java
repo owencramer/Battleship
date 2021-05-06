@@ -1,4 +1,4 @@
-package battleship.Constants;
+package battleship.constants;
 
 public class Constants {
     private Constants() {}

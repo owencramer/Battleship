@@ -8,8 +8,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Game_Generate gen = new Game_Generate();
-        gen.printBoard();
 
         Scanner input = new Scanner(System.in);
         System.out.println("Welcome to " + ANSI_Colors.RED_BOLD + ANSI_Colors.RED_UNDERLINED + "Battleship"
