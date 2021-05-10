@@ -39,4 +39,21 @@ public class Ship {
     public void setSunk(boolean sunk) {
         isSunk = sunk;
     }
+
+    public Position getPosition() {
+        return position;
+    }
+
+    public void setPosition(Position position) {
+        this.position = position;
+    }
+
+    public void shipWasHit() {
+        if (livesLeft == 0) {
+            isSunk = true;
+            System.out.println("You sunk the " + name);
+            return;
+        }
+        livesLeft--;
+    }
 }

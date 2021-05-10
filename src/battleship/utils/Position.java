@@ -1,6 +1,6 @@
 package battleship.utils;
 
-import battleship.Constants.Constants;
+import battleship.constants.Constants;
 import java.awt.Point;
 
 public class Position {
