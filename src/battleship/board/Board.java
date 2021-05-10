@@ -11,7 +11,6 @@ import battleship.utils.Position;
 import battleship.utils.Utils;
 
 import java.awt.Point;
-import java.nio.channels.Pipe;
 import java.util.Scanner;
 
 public class Board {
@@ -68,7 +67,7 @@ public class Board {
             Ship ship = ships[i];
             boolean isShipPlacemenLegal = false;
 
-            System.out.printf("%nEnter position of %s (length %d): ", ships.getName(), ship.getSize());
+            System.out.printf("%nEnter position of %s (length %d): ", ship.getName(), ship.getSize());
             while (!isShipPlacemenLegal) {
                 try {
                     Point from = new Point(s.nextInt(), s.nextInt());
@@ -87,7 +86,7 @@ public class Board {
                         ship.setPosition(position);
                         isShipPlacemenLegal = true;
                     } else {
-                        System.out.println("A ship in that position already exists. Please try again.")
+                        System.out.println("A ship in that position already exists. Please try again.");
                     }
                 } catch (IndexOutOfBoundsException e) {
                     System.out.println("Invalid coordinates - Outside board!");
@@ -118,5 +117,34 @@ public class Board {
         }
 
         return isOccupied;
+    }
+
+    private void drawShipOnBoard(Position position) {
+        Point from = position.getFrom();
+        Point to = position.getTo();
+        for (int i = (int) from.getY() - 1; i < to.getY(); i++) {
+            for (int j = (int) from.getX() - 1; j < to.getX(); j++) {
+                board[i][j] = Constants.SHIP_ICON;
+            }
+        }
+        printBoard();
+    }
+
+    public void printBoard() {
+        System.out.print("\t");
+
+        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
+            System.out.print(Constants.BOARD_LETTERS[i] + "\t");
+        }
+
+        System.out.println();
+
+        for (int i = 0; i < Constants.BOARD_SIZE; i++) {
+            System.out.print((i + 1) + "\t");
+            for (int j = 0; j < Constants.BOARD_SIZE; j++) {
+                System.out.print(board[i][j] + "\t");
+            }
+            System.out.println();
+        }
     }
 }
