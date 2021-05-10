@@ -1,5 +1,6 @@
-/* Ships yeah
- * Mehmet, Owen, Max
+/* Max Robins, Mehmet Buegel, Owen Cramer
+ * Generates the ships and counts how many lives you have left.
+ * 22 April 2021
  */
 
 package battleship.ship;

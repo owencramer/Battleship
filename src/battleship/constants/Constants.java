@@ -1,5 +1,5 @@
 /* Max Robins, Mehmet Buegel, Owen Cramer
- * April 26th 2021
+ * 22 April 2021
  * Defines lengths of ships and icons for hitting and missing. This also defines the board size.
  */
 

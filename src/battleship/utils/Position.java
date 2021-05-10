@@ -1,5 +1,5 @@
 /* Max Robins, Mehmet Buegel, Owen Cramer
- * April 26th 2021
+ * 22 April 2021
  * Defines where the battleships will be placed on the board.
  */
 

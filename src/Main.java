@@ -1,5 +1,4 @@
-/* Battleship
- * Mehmet, Owen, Max
+/* Max Robins, Mehmet Buegel, Owen Cramer
  * 22 April 2021
  * Battleship - Destroy other ships to win!
  */
