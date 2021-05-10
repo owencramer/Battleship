@@ -1,5 +1,6 @@
-/* Generates board
- * Mehmet, Owen, Max
+/* Max Robins, Mehmet Buegel, Owen Cramer
+ * Generates the board.
+ * 22 April 2021
  */
 
 package battleship.board;
