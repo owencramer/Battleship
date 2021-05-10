@@ -1,6 +1,7 @@
-/* Max Robins, Mehmet Buegel, Owen Cramer
- * 22 April 2021
- * Randomizes battleships on game board
+/* Player
+ * Max Robins, Mehmet Buegel, Owen Cramer
+ * 10 May 2021
+ * Sets up the player ships
  */
 
 package battleship.player;
