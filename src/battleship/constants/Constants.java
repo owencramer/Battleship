@@ -1,3 +1,8 @@
+/* Max Robins, Mehmet Buegel, Owen Cramer
+ * April 26th 2021
+ * Defines lengths of ships and icons for hitting and missing. This also defines the board size.
+ */
+
 package battleship.constants;
 
 public class Constants {

@@ -1,3 +1,7 @@
+/* Max Robins, Mehmet Buegel, Owen Cramer
+ * April 26th 2021
+ * Other program that brings the code together.
+ */
 package battleship.utils;
 
 import java.awt.Point;

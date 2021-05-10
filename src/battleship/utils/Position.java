@@ -1,3 +1,8 @@
+/* Max Robins, Mehmet Buegel, Owen Cramer
+ * April 26th 2021
+ * Defines where the battleships will be placed on the board.
+ */
+
 package battleship.utils;
 
 import battleship.Constants.Constants;
