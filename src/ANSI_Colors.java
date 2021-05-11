@@ -1,7 +1,3 @@
-/* ANSI colors
- * Owen Cramer
- * 06 April 2021
- */
 /* Max Robins, Mehmet Buegel, Owen Cramer
  * 22 April 2021
  * ANSI_Colors puts colors here to be used in other parts of the program.
