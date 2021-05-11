@@ -1,6 +1,5 @@
 # Battleship
 
-This game is for a final project at Colorado Early Colleges Fort Collins. 
 
 ### Get Started with the game:
 - Download the game [here](https://github.com/owencramer/Battleship/releases).
