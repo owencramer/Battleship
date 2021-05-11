@@ -44,6 +44,7 @@ public class Player {
     }
 
     public void turnToPlay(Player opponent) {
+        System.out.println("\n\n\n\n\n\n");
         System.out.printf("%n%nPlayer %d, Choose coordinates you want to hit (x, y) ", id);
         Point point = new Point(scanner.nextInt(), scanner.nextInt());
 

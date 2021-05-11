@@ -60,6 +60,7 @@ public class Board {
     }
 
     private void placeShipsOnBoard() {
+        System.out.println("\n\n\n\n\n\n");
         System.out.printf("%nAlright - Time to place out your ships%n%n");
         Scanner s = new Scanner(System.in);
 

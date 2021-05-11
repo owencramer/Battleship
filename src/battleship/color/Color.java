@@ -1,9 +1,6 @@
-/* Max Robins, Mehmet Buegel, Owen Cramer
- * 22 April 2021
- * ANSI_Colors puts colors here to be used in other parts of the program.
- */
+package battleship.color;
 
-public class ANSI_Colors {
+public class Color {
     // Regular Colors
     public static final String RESET = "\u001B[0m";
     public static final String BLACK = "\u001B[30m";
