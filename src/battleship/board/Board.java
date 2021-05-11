@@ -9,6 +9,7 @@ import battleship.constants.Constants;
 import battleship.ship.Ship;
 import battleship.utils.Position;
 import battleship.utils.Utils;
+import battleship.color.Color;
 
 import java.awt.Point;
 import java.util.Scanner;
@@ -61,7 +62,7 @@ public class Board {
 
     private void placeShipsOnBoard() {
         System.out.println("\n\n\n\n\n\n");
-        System.out.printf("%nAlright - Time to place out your ships%n%n");
+        System.out.printf(Color.ANSI_BLACK_BACKGROUND + Color.CYAN + "%nAlright - Time to place out your ships%n%n" + Color.RESET);
         Scanner s = new Scanner(System.in);
 
         for (int i = 0; i < ships.length; i++) {
