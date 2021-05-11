@@ -11,7 +11,9 @@ import java.awt.Point;
 public class Position {
     private Point from;
     private Point to;
+    /* Defining some of the tools for the position calculator
 
+     */
     public Position(Point from, Point to) {
         if (from.getX() > Constants.BOARD_SIZE || from.getX() < 0
                 || from.getY() > Constants.BOARD_SIZE || from.getY() < 0
