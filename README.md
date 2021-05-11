@@ -19,4 +19,6 @@ This game is for a final project at Colorado Early Colleges Fort Collins.
 ## Possible errors:
 > 1. Your computer may have an error that it can not start the program. The issue may be that you did not compile the code before starting. Another issue is that you do not have the java compiler installed. On Linux and MacOS systems do `sudo apt install openjdk-VERSION-jdk-headless` (you may have to do some research on what version you need. This program was written in Java 14. Recommend that you install Java 14 (`sudo apt install openjdk-14-jdk-headless`)).
 
+
+## Other notes:
 If you find any other errors with install/getting started, please create an issue [here](https://github.com/owencramer/Battleship/issues) or by pressing **Issues** at the top.
