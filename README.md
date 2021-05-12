@@ -26,3 +26,4 @@ If you find any other errors with install/getting started, please create an issu
 # How to play:
 - The game will ask player 1 on where to place each ship. The first one will be the Carrier (5 dots). It will ask for an input (x, y). An example placement would be: `2 1 2 5`. These are the start point and endpoint (in this case, the carrier is vertical on the board). `2 1` is the start point and `2 5` is the end point. The points is very similar to a coordinate plane in your math class.
 - Do this with the rest of the ships. All ships can be setup horizontally or vertially. The number of dots vary in ships.
+- Repeat this for player too also.
