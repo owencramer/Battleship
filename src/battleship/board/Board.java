@@ -62,7 +62,7 @@ public class Board {
 
     private void placeShipsOnBoard() {
         System.out.println("\n\n\n\n\n\n");
-        System.out.printf(Color.ANSI_BLACK_BACKGROUND + Color.CYAN + "%nAlright - Time to place out your ships%n%n" + Color.RESET);
+        System.out.printf(Color.CYAN + "%nAlright - Time to place out your ships%n%n" + Color.RESET);
         Scanner s = new Scanner(System.in);
 
         for (int i = 0; i < ships.length; i++) {
