@@ -1,6 +1,9 @@
 # Battleship
 
 
+### Disclaimer
+Note: Most commands are for Ubuntu (Linux) and similar flavors. Please use resources to find a way to install Java if needed.
+
 ### Get Started with the game:
 - Download the game [here](https://github.com/owencramer/Battleship/releases).
 - Select either zip or tar.gz (Windows and MacOS users, please use the **zip** download option)
@@ -26,4 +29,4 @@ If you find any other errors with install/getting started, please create an issu
 # How to play:
 - The game will ask player 1 on where to place each ship. The first one will be the Carrier (5 dots). It will ask for an input (x, y). An example placement would be: `2 1 2 5`. These are the start point and endpoint (in this case, the carrier is vertical on the board). `2 1` is the start point and `2 5` is the end point. The points is very similar to a coordinate plane in your math class.
 - Do this with the rest of the ships. All ships can be setup horizontally or vertially. The number of dots vary in ships.
-- Repeat this for player too also.
+- Repeat this for player 2 also.
