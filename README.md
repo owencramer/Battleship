@@ -19,7 +19,7 @@ Note: Most commands are for Ubuntu (Linux) and similar flavors. Please use resou
 
 
 ## Possible errors:
-> 1. Your computer may have an error that it can not start the program. The issue may be that you did not compile the code before starting. Another issue is that you do not have the java compiler installed. On Linux and MacOS systems do `sudo apt install openjdk-VERSION-jdk-headless` (you may have to do some research on what version you need. This program was written in Java 14. Recommend that you install Java 14 (`sudo apt install openjdk-14-jdk-headless`)).
+> 1. Your computer may have an error that it can not start the program. The issue may be that you did not compile the code before starting. Another issue is that you do not have the java compiler installed. On Linux systems do `sudo apt install openjdk-VERSION-jdk-headless` (you may have to do some research on what version you need. This program was written in Java 14. Recommend that you install Java 14 (`sudo apt install openjdk-14-jdk-headless`)).
 
 
 ## Other notes:
